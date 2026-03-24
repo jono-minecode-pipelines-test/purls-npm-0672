@@ -1,0 +1,60 @@
+{
+    "name": "00_calculator",
+    "version": "1.1.0",
+    "description": "**Steps**",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "00_calculator": "calculator.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/chalk": "^2.2.0",
+        "@types/chalk-animation": "^1.6.1",
+        "@types/inquirer": "^9.0.3"
+    },
+    "dependencies": {
+        "chalk": "^5.1.2",
+        "chalk-animation": "^2.0.3",
+        "inquirer": "^9.1.4"
+    },
+    "gitHead": "a21962217bbed4172570f59f2b5abc9ee0110e32",
+    "_id": "00_calculator@1.1.0",
+    "_nodeVersion": "16.18.0",
+    "_npmVersion": "9.1.2",
+    "dist": {
+        "integrity": "sha512-0fUokt4/oQbrM97LJiE3d00VEW9HjqrZBDeoW3eMuFZ+SAAqUqw750hu1+iZdP7SjZ0zL4SW2zO11Z+7DMQZ9A==",
+        "shasum": "f62cd34616bb417d19e8f91dba01031201a9a638",
+        "tarball": "https://registry.npmjs.org/00_calculator/-/00_calculator-1.1.0.tgz",
+        "fileCount": 5,
+        "unpackedSize": 16502,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIH8iMZS9gybq4P60zQATYqilMj+G1y9VhLuzvMZIP/MgAiABU5oMn8ThLmYW62Btb15Jfh5ArAmt3z3GsIZjnTW+Ag=="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjjxSfACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqOjhAAk169i4deU75UGhDe5hphMKZ1cMMWJgyjNXP75TFWcldUytF3\r\nJBBjSLvYiiAMFYyU80KkoRuWpncN0HksBKeKzoKXkSS+LYj7cAlbDeh0SpEt\r\nfmhdo7kx6ho2fCFTK1KHfADsj6vH7ebsKfTI9a5SjW1wcQ8lGr5NNTWosy/8\r\nZBJ5qZju3eCapWwC/4LrQWccnkaSRSSWBaC3j4NWummk60aJtOln8nYNqBid\r\nx3ptXoJoSV+lIWr6kY2sqCn4YUR/0TjI85iPl6yjFMROcUJWHF0zZl/PyXlx\r\nPv8W1kw+R6yFm0Yr9XUC9+5kl0IDs4BDFzNNPN1OOreWa0m4erXFcIUeYgye\r\nvQeF1EO0lLK/yquAahEkXS/i0bGGlgfxud96jLKkdWJB/TCHHLay/YWtXwj2\r\njuk5YuPZjmRxG11zeI0GHaKduK8YR8/5MjMnhbaDzgXfCLsqu4Nsui/uZkEs\r\nRMB5Y5fM8CCdKzGFrPSCXkEBCD8NQwplBdLQGlqlSS7Hn+/xyuVj2MVovzLv\r\nHp/4CmIEoTmRaSPgkZLojNM3cqx7uAYA/iBFlRTk81gPcOAe48l2+Z0dgt3W\r\n7MMEQCaCE8SU37NZ53i7cr5V6ooOWad4HTXyIt97LuoZoAXTjdzScNYJ+h6f\r\nE1npmSLxB0DGx4XKiAt3MWyBAEq1VJaQZvY=\r\n=ckm1\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "sajidmunawar",
+        "email": "sajidmunawar666@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "sajidmunawar",
+            "email": "sajidmunawar666@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/00_calculator_1.1.0_1670321311535_0.7742774027727832"
+    },
+    "_hasShrinkwrap": false
+}

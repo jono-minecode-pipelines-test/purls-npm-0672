@@ -1,50 +1,69 @@
 {
-    "name": "0-9",
+    "name": "0-plume-css",
     "version": "0.0.1",
-    "main": "./lib/index.js",
-    "description": "",
-    "keywords": [],
-    "homepage": "https://github.com//0-9",
+    "description": "A tiny framework for sass/css artisans",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm run build-sass && sass --no-source-map --style=compressed src/scss/plume.scss dist/css/plume.min.css && npm run build-autoprefix",
+        "build-autoprefix": "postcss --use autoprefixer --no-map false --output dist/css/plume.min.css dist/css/plume.min.css",
+        "build-sass": "sass --source-map-urls=relative src/scss/plume.scss dist/css/plume.css",
+        "prod": "npm run build",
+        "dev": "npm run build-sass && sass --watch --no-source-map src/scss/plume.scss dist/css/plume.css"
+    },
+    "keywords": [
+        "css",
+        "sass",
+        "framework",
+        "responsive",
+        "plume"
+    ],
+    "author": {
+        "name": "okyn",
+        "email": "0kyn.dev@gmail.com"
+    },
     "license": "MIT",
     "devDependencies": {
-        "tap": "^6.3.2"
+        "autoprefixer": "^10.2.5",
+        "postcss-cli": "^8.3.1",
+        "sass": "^1.32.13"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com//0-9.git"
-    },
-    "author": "",
-    "scripts": {
-        "test": "node ./test"
-    },
-    "_id": "0-9@0.0.1",
-    "_shasum": "d1adcfe4b9fbc76de57d97cd262fa1c24238dc5e",
-    "_from": ".",
-    "_npmVersion": "3.10.10",
-    "_nodeVersion": "7.3.0",
-    "_npmUser": {
-        "name": "teniryte",
-        "email": "teniryte@gmail.com"
-    },
+    "browserslist": [
+        ">0.1%",
+        "last 3 versions",
+        "Firefox ESR"
+    ],
+    "gitHead": "366eb1943df58006c38b668dec086337f1804606",
+    "_id": "0-plume-css@0.0.1",
+    "_nodeVersion": "14.17.0",
+    "_npmVersion": "6.14.13",
     "dist": {
-        "shasum": "d1adcfe4b9fbc76de57d97cd262fa1c24238dc5e",
-        "tarball": "https://registry.npmjs.org/0-9/-/0-9-0.0.1.tgz",
-        "integrity": "sha512-N7JM9JSqCagJh1HgimQaSJEsZZdawdzlVwZP0N9CLy6MYYMFanMe6F98eeYJhB7JbSh+sekKGD/wIcFCkR1M/A==",
+        "integrity": "sha512-JPNVDYml2UQeFCLboCHuTvJxGRwTsyq2EUYyXIcBtdPgPrRo1cVCFKSEp3TEAGxR1tiRuohUBbuOfExByl8NoA==",
+        "shasum": "12be828f058666c8cc2fb438ac24a58558a407f4",
+        "tarball": "https://registry.npmjs.org/0-plume-css/-/0-plume-css-0.0.1.tgz",
+        "fileCount": 18,
+        "unpackedSize": 27051,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgyOR7CRA9TVsSAnZWagAAW/MP/1I+oQtnpN7w5rm5jew2\nfMZjTCwnK3VX8tN2dg4QyrYTzJ94p8HaDAXvQu581g7vq/o94YTPKgCA7lcE\nov25cC1jOrIGUOps2fGsSRhIUn6AKRYeAFIpVDU7UT2/6BE16TPSXrIITUXx\nc8m094OasLpFRtP10KoTDisDgF0uXP6LdfR6zMEYZ+tho/sPyrmv+0qEViKh\nYgBh3cd4BHvm1nhNckiefoK02tLt6G8Msb8j6NAVV7Y+6vc52hsqPvjBJWUs\nXVGHKJ1E9Kyi3wdFs2h65w+2ZV7gt4SP7UAFmhWN2RIpefOnoaX3OPY9ABjc\nc3Zo0BFNBhksz0Dy2yqIhUusNR64BBJQlGM9WA3IhXfV3hsTf7uyoXOiaUjG\nlmAl21wXOQMMx84sXeboS5UY5rky446YDu76k2zgQ7Zd6ZiaAj0uPTMaWz23\ndsYoOGCASQeoL28eQT5dlcR5ClMTxw7YB7bdPVF7SlYrRira4Q0OCs/0XHU2\nzklFqvCIlIxhNnfvYSPKx2+fdYShfYWHBczc4NzEAzWcrZ0c9MewPL32oVvK\noS6gny7bS9+vw6JQTENe704axxpyt7Vi+estBt2qHrhG3bJoiypZHX9BftCO\nZLR6dF0LHuvx0A29G3PcUuabSnb9bClU5pXuySBzZ+R8kXtVYWYG7xYUjyZd\ntyOv\r\n=e/JU\r\n-----END PGP SIGNATURE-----\r\n",
         "signatures": [
             {
                 "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
-                "sig": "MEUCIQDXz0eUqlvGmusI/w7pem3vJfZ/LN9fSG3FaOr6c8NpegIgVsAR5X42NBQeMOhLgH+/isQ8aqG3vWX9pK+eBH6dM9I="
+                "sig": "MEUCIDezvsLVf9Q9S0JLC4ksE+deueeWe6+hE3mQdI4p4zOiAiEA9iapT3BR0xE48+5NJCF43J73ZyKop29TNd073ZmcU2I="
             }
         ]
     },
+    "_npmUser": {
+        "name": "okn",
+        "email": "0kyn.dev@gmail.com"
+    },
+    "directories": {},
     "maintainers": [
         {
-            "name": "teniryte",
-            "email": "teniryte@gmail.com"
+            "name": "okn",
+            "email": "0kyn.dev@gmail.com"
         }
     ],
     "_npmOperationalInternal": {
-        "host": "packages-12-west.internal.npmjs.com",
-        "tmp": "tmp/0-9-0.0.1.tgz_1488803515446_0.8192481037694961"
-    }
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0-plume-css_0.0.1_1623778426941_0.9058588893242594"
+    },
+    "_hasShrinkwrap": false
 }

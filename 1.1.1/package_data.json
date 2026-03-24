@@ -1,0 +1,52 @@
+{
+    "name": "001-webpack-numbers",
+    "version": "1.1.1",
+    "description": "",
+    "main": "./dist/webpack-numbers.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5.0",
+        "lodash": "^4.17.21",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "_id": "001-webpack-numbers@1.1.1",
+    "_nodeVersion": "14.18.1",
+    "_npmVersion": "6.14.15",
+    "dist": {
+        "integrity": "sha512-INfuOH0o2DshWKcLgaMZ5j5vGxQyBldgkwsX2XPrlhzF0wXPqESUztFmhuQhsHT422ku2oMDroc65/QZrZIqtA==",
+        "shasum": "8297160be30d22cc10bff4b96e22e27d2058b5a8",
+        "tarball": "https://registry.npmjs.org/001-webpack-numbers/-/001-webpack-numbers-1.1.1.tgz",
+        "fileCount": 7,
+        "unpackedSize": 3392,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCn7XLfUcqZoo1THAkT0c2abNBXTjoHfe8s/CBulbP9EwIhAKirf3r07Sd1S7A/wknlNvXr2GOCuC+GjKtmwEizy0yF"
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj9H8YACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmqp0A/9GB+8m2RBlCfOmgmI72eCqIoUw1n0pBh7AEoj1+hq/onO7wbO\r\nK8huBkQNnkA5SgF3mpZQhMO4wsCUrNU+45DHTUNMyo7R9T3WO7KpCad542Tu\r\nSV9QqKsconDZGw51OixQtWuaBv5ZidfvF+j/L4gYLTL6iAY4Sft/yseWM3vz\r\nVEehTlGPK4r0D3iDUOJG1O3IB5OFOjTKhwh8ShhZoenqlU29izzoOxSv0G70\r\n+WNkodBcinYn5QCGl4IrP2bd1KDCeQ9UlOtr9FkTtmsx3Rptn8zfMzz5SCmN\r\ntCRfYAcvA5rAsg9U5SYnzOxeajWB2qZRD7Et8VOS7mXGAVqSpSVU1mKEVHOB\r\n6LXTwf8groggOpZv4ZH3zyuborcNLzhxsUZUWhUqnpeb7+QEMlo/yU3mDzNr\r\n60vbejC8vjDwzEwQUWkw804IPO+27IEgp0REyqF7FvwSeUVZ40Y1TTs/hRuf\r\ndgHaf+bKs0A0OF8lYc6dSm0SAHOPL4DA+JyAXQTp3ZbQ+JzXt5NLsWAY6xDX\r\n9NkyDfiDp8GZl7+N6J4vnMhpdYPK4kD0LYmNlqC0u1RkUsau+BUgYta+RnNF\r\nkkUdavKgFmwtxIXnwBXWLia7XtPiN/exkFlwYEWPDHEcg0SijFyfF0yXNsq6\r\nqhm1JaFU2Y9ERqcjmEeFuZd261rfqqA9Bc4=\r\n=ASxk\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "hujianeng",
+        "email": "463501447@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "hujianeng",
+            "email": "463501447@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/001-webpack-numbers_1.1.1_1676967704244_0.06414753039265708"
+    },
+    "_hasShrinkwrap": false
+}
