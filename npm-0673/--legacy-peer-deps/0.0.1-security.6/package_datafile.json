@@ -1,0 +1,35 @@
+{
+    "name": "--legacy-peer-deps",
+    "version": "0.0.1-security.6",
+    "description": "security holding package",
+    "repository": "npm/security-holder",
+    "_id": "--legacy-peer-deps@0.0.1-security.6",
+    "_integrity": "sha512-XZRouUfTdRV+oK60sCl2YVVLnNWvpiDdb6zteLOrdnYXhYM2SzHVkMBCYTeCV7cmSaI+xD0WGtJgvj7ym4chwg==",
+    "_resolved": "/tmp/tmp-9-75Z1PmdujWf4",
+    "_from": "file:/tmp/tmp-9-75Z1PmdujWf4",
+    "dist": {
+        "tarball": "https://registry.npmjs.org/--legacy-peer-deps/-/--legacy-peer-deps-0.0.1-security.6.tgz",
+        "integrity": "sha512-XZRouUfTdRV+oK60sCl2YVVLnNWvpiDdb6zteLOrdnYXhYM2SzHVkMBCYTeCV7cmSaI+xD0WGtJgvj7ym4chwg==",
+        "shasum": "ea774c541aa12d26317aa091b9ea68c48d9d5650",
+        "fileCount": 2,
+        "unpackedSize": 444,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDY+2v9ZueRC82A2LLXxZGWvbg8ZuWU2CVYLtajs6vy8AiBuxB19y0PJisPuzGqT4qiSn3ZqIX0pwU+noWL83ZoEfg=="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjGFaSACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqjvQ//Ud7fiLSv7rfZkcXYgLjOOH8ZpLhvZ5AwwkUnn0lyHHxrIkBr\r\ntWdq46iC6RiQdkWteoXI81AhseOwK3o+JqX8iGqszNc0owoOTBNR8Igk2IEO\r\nDRrmioeKvv3sj4RqjlnbBoSB13HONPaZp+iCJco9IK0eS26ifPva5WV4Q8cU\r\nOlJ8WBbJiyXE32txrCZUdHnrEj1B6BFlBzW/C9xCmDQikS16bPU+TzHoFFlA\r\nY08vs4RTdALHEue3taVW70g7l1Pxyi1TFNtnZL8DU/LnkRat9ittrnuvs3lK\r\nk06QiFQkEjejFgWHGzLAwKAl1gK5Vnz54yru21bviuNtxjVXhHURZ+xgbIJr\r\ndhx96EwoNpGcGCL4sfcRTbI8LfAmFpzbWtKKgvHHtLmRBjOC5WBnhv/Ux3xk\r\nEo3nkcs/uwbgpRNUMttcO5wMNg4Yk2BdRBM6R4Vgg+qBaHPFdtnCsfsJCN0m\r\noe3pT8zRJ8/uo3QMuEQYrFl5eoyoVE3HdDCm+wnBerb7UDm8HAtcN2shk31P\r\n1AyXNEtitGy2eHD5uSlcT3vH5/X5bQoQSIRWvN6MpZmh0GOkrXsGwasXUUjl\r\nDUFx4EtNr7KChxOEf37jx84OAkoZbYjOIvat3qPNGJ+N8sb1PVhtVg3lZz0l\r\ntQiepHLKJSuUf7TZ0QvOHl0igAypExYntYg=\r\n=rtya\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "npm",
+        "email": "npm@npmjs.com"
+    },
+    "directories": {},
+    "maintainers": [],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/--legacy-peer-deps_0.0.1-security.6_1662539410793_0.32633969458954915"
+    },
+    "_hasShrinkwrap": false
+}

@@ -1,0 +1,50 @@
+{
+    "name": "0-9",
+    "version": "0.0.1",
+    "main": "./lib/index.js",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com//0-9",
+    "license": "MIT",
+    "devDependencies": {
+        "tap": "^6.3.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com//0-9.git"
+    },
+    "author": "",
+    "scripts": {
+        "test": "node ./test"
+    },
+    "_id": "0-9@0.0.1",
+    "_shasum": "d1adcfe4b9fbc76de57d97cd262fa1c24238dc5e",
+    "_from": ".",
+    "_npmVersion": "3.10.10",
+    "_nodeVersion": "7.3.0",
+    "_npmUser": {
+        "name": "teniryte",
+        "email": "teniryte@gmail.com"
+    },
+    "dist": {
+        "shasum": "d1adcfe4b9fbc76de57d97cd262fa1c24238dc5e",
+        "tarball": "https://registry.npmjs.org/0-9/-/0-9-0.0.1.tgz",
+        "integrity": "sha512-N7JM9JSqCagJh1HgimQaSJEsZZdawdzlVwZP0N9CLy6MYYMFanMe6F98eeYJhB7JbSh+sekKGD/wIcFCkR1M/A==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDXz0eUqlvGmusI/w7pem3vJfZ/LN9fSG3FaOr6c8NpegIgVsAR5X42NBQeMOhLgH+/isQ8aqG3vWX9pK+eBH6dM9I="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "teniryte",
+            "email": "teniryte@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/0-9-0.0.1.tgz_1488803515446_0.8192481037694961"
+    }
+}
